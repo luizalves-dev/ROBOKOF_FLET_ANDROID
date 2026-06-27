@@ -1,4 +1,4 @@
-ame: Gerar APK Android
+name: Gerar APK Android
 
 on:
   workflow_dispatch:
