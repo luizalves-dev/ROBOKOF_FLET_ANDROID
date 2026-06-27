@@ -1,0 +1,8 @@
+﻿etapa;status;observacao
+Analisar arquivo completo;PENDENTE;
+Identificar pedido/CNPJ/SKU/QTD;PENDENTE;
+Validar múltiplas páginas/abas;PENDENTE;
+Validar de-para CNPJ/matrícula;PENDENTE;
+Validar conversão unidade-caixaria;PENDENTE;
+Gerar Excel único de validação;PENDENTE;
+Testar Outlook/múltiplos anexos;PENDENTE;

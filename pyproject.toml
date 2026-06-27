@@ -1,0 +1,47 @@
+[project]
+name = "robokof"
+version = "1.0.0"
+description = "Conversor de pedidos RoboKOF para Android"
+requires-python = ">=3.10"
+dependencies = [
+  "flet==0.85.3",
+  "pandas==2.2.3",
+  "numpy==2.2.2",
+  "openpyxl==3.1.5",
+  "pdfminer.six==20251230",
+  "cryptography==48.0.0",
+  "pypdf==5.9.0",
+  "Pillow==11.1.0",
+  "python-dotenv==1.1.1",
+  "xlrd==2.0.1",
+]
+
+[tool.flet]
+product = "RoboKOF"
+org = "com.luizalvesdev"
+bundle_id = "com.luizalvesdev.robokof"
+build_number = 1
+build_version = "1.0.0"
+
+[tool.flet.android]
+adaptive_icon_background = "#E41E2B"
+
+[tool.flet.app]
+exclude = [
+  ".robokof_data",
+  ".test_runtime",
+  ".regression_runtime",
+  ".bh_runtime",
+  ".final_test_runtime",
+  ".ui_test_runtime",
+  ".ui_model_runtime",
+  "_documentacao",
+  "__pycache__",
+  "*.pyc",
+]
+
+[tool.flet.compile]
+app = true
+
+[tool.flet.cleanup]
+app = true

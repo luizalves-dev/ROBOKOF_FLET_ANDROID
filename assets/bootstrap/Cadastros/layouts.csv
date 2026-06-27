@@ -1,0 +1,44 @@
+layout_id,cliente_id,nome_layout,tipo_arquivo,tipo_cliente_destino,ativo,aceita_multiplos_pedidos,aceita_multiplos_clientes,sheet_nome,header_linha,inicio_dados_linha,regra_data_entrega,coluna_data_entrega,observacoes
+23,23,COELHO DINIZ Excel Pedido + Datas,EXCEL,MATRICULA,1,1,1,,1,1,COLUNA,,Excel Coelho Diniz em lote; exige Excel do pedido e Excel de matriculas/datas; data por matricula; SKU=Cod.Fab; quantidade direta
+13,13,BOZZA PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Bozza/Boza LinkERP; SKU direto; quantidade=Qtde Emb; sem conversao unidade-caixa; assinatura dedicada por LinkERP + Supermercado Boza + CNPJ/CPF + Numero Pedido.
+14,14,MONACO PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Monaco; SKU=Cod Forn; quantidade=Qtde Emb; sem conversao unidade-caixa
+15,15,DAHER PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Daher; SKU=Ref; quantidade=Qtd; sem conversao unidade-caixa
+16,16,PRIMATO PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Primato; SKU direto; quantidade=Qtd; sem conversao unidade-caixa
+17,17,SUPERLAR PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Superlar; SKU direto; quantidade=Qtd; sem conversao unidade-caixa
+18,18,INDIANA PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Indiana; SKU direto; quantidade direta; sem conversao unidade-caixa
+19,19,KACULA PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Kacula; SKU direto; quantidade direta; sem conversao unidade-caixa
+20,20,REDE VIP Excel Matricial,EXCEL,MATRICULA,1,1,1,,1,1,D+1,,Excel Rede VIP em matriz SKU x matriculas; sem conversao unidade-caixa; PEDIDO_OPCIONAL: arquivo VIP/Coca pode não trazer número de pedido por linha; Robô usa ponto técnico compatível.
+21,21,MANO DOCES Excel Matricial,EXCEL,MATRICULA,1,1,1,,1,1,D+1,,Excel Mano Doces em matriz SKU x matriculas; sem conversao unidade-caixa
+22,22,BUFFON Excel Matricial,EXCEL,MATRICULA,1,1,1,,1,1,D+1,,Excel Buffon em matriz matricula x SKUs; sem conversao unidade-caixa
+1,1,DAISO Excel Padrao,EXCEL,MATRICULA,1,1,1,,1,2,COLUNA,ENTREGA|DATA|DT ENTREGA,Layout Excel homologado V1
+2,2,TISCHLER PDF,PDF,CNPJ,1,1,1,,1,1,COLUNA,,PDF com multiplos pedidos; barcode vira sku_lido; matricula via BASE de GLNS
+3,3,ALABARCE PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF tabular multi-lojas; SKU=Ref; data_entrega=D+1; CNPJ por loja
+4,4,BAKLIZI PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF TOTVS com multiplos pedidos; SKU=Cod Forn; quantidade=Qtde; ignora Qtd.Canc.; CNPJ por pedido
+5,5,MILLER PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Miller com multiplos pedidos; SKU=EAN da coluna Referencia; quantidade=caixas; CNPJ por pedido; data remessa=D+1
+6,6,COOPERCICA PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Coopercica TOTVS; SKU=Cod Forn; quantidade=Qtde; aceita FD/CX/UN; CNPJ por pedido; data remessa=D+1
+7,7,DROGA CLARA PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Droga Clara por loja; SKU=Codigo; quantidade=Qtd; CNPJ da filial; data remessa=D+1
+8,8,REDE ITALO PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Rede Italo por loja; CONVERSAO unidade-caixaria ativa; prioridade base Italo Cod Barras->Código Femsa/Conversão; fallback mapa por centro; gera Excel de validação antes de TXT/fila.
+9,9,BARRACAO PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Barracao por loja; SKU=Cod Forn; quantidade=Qtde Emb; CNPJ da empresa; data remessa=D+1
+10,10,GALASSI PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Galassi multi-clientes; SKU=Referencia; quantidade=Qtde; CNPJ por bloco; pedido por bloco; data remessa=D+1
+11,11,SEMPRE VALE PDF,PDF,CNPJ,1,1,1,,1,1,COLUNA,,PDF Sempre Vale multi-clientes; SKU=Cod Forn; quantidade=Qtde; CNPJ por pedido; data remessa manual informada no popup
+12,12,FESTIVAL PDF,PDF,CNPJ,1,1,1,,1,1,COLUNA,,PDF Festival multi-clientes; SKU=Cod Forn; quantidade=Qtde Qtd.Canc.; CNPJ por pedido; data remessa=Previsao de entrega
+24,24,PASSARELA CENTER PDF Homologacao OCR,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF/imagem Passarela Center; parser generico de homologacao com OCR; sem conversao unidade-caixa; conferencia manual obrigatoria
+25,25,MAX CENTER PDF Alias Superlar,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Max Center; alias controlado do parser Superlar com fallback generico; sem conversao unidade-caixa; conferencia manual obrigatoria
+26,26,MABY SUPERMERCADOS PDF Homologacao,PDF,CNPJ,1,1,1,,1,1,D+1,,"PDF Maby Supermercados/SPAL; várias lojas no mesmo PDF; identificação forte por MABY SUPERMERCADOS + PEDIDOS DE COMPRA + CNPJ da Empresa + tabela Código/GTIN; produto oficial para o Robô KOF = GTIN/EAN, não SKU interno; quantidade=Quanti já em caixaria; linhas sem EAN ficam em alerta/validação."
+27,27,GRUPO E.M.O.P. / PARTEKA PDF Homologacao,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Grupo EMOP/Parteka permanece em homologação controlada; automação dedicada oficial da rede foi cadastrada no layout EXCEL 40.
+28,28,BELTRAME PDF Homologacao EAN SKU,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Beltrame; leitura direta com EAN/SKU sem divisao de quantidade; sem conversao unidade-caixa; precisa amostra/gabarito para homologar parser proprio
+29,29,RASTREABILIDADE PDF Homologacao Generica,PDF,CNPJ,1,1,1,,1,1,D+1,,Fallback generico para PDF sem sugestao segura; usa parser generico de homologacao; sem conversao unidade-caixa; conferencia manual obrigatoria; nunca gera TXT/fila automaticamente
+30,30,RASTREABILIDADE EXCEL Homologacao Generica,EXCEL,CNPJ,1,1,1,,1,1,D+1,,Fallback generico para Excel sem sugestao segura; tenta mapear colunas por aliases; sem conversao unidade-caixa; conferencia manual obrigatoria; nunca gera TXT/fila automaticamente
+31,31,SUPERMAIS PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Supermais; SKU=Codigo Forneced; quantidade=Pedido Embal; nao usar Pedido Unid; sem conversao unidade-caixa
+32,32,PANELAO PDF,PDF,CNPJ,1,1,1,,1,1,COLUNA,,PDF Panelao multi-paginas; SKU=REF; quantidade=QTDE COMPRA; data=ENTREGA/RETIRADA; nao usar QTDE TOTAL; sem conversao unidade-caixa
+33,33,CAITA PDF,PDF,CNPJ,1,1,1,,1,1,COLUNA,,PDF Caita; SKU=Referencia; quantidade=Quant Caixa; data=Previsao de entrega; nao usar QUANT Pedida; sem conversao unidade-caixa
+34,34,REDE ESTRELA PDF,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Estrela TOTVS RELPEDSUPRIM; CNPJ no bloco Dados para Faturamento; SKU=Cod Forn; quantidade=Qtde; sem conversao unidade-caixa; validação obrigatória.
+35,35,TESTE REDE ALFA PDF Conversao,PDF,CNPJ,1,1,1,,1,1,D+1,,TESTE: layout com conversao unidade-caixaria via Cadastros/regras_conversao.csv e fallback mapa de produtos por centro; validação obrigatória antes de TXT/fila.
+36,36,TESTE PONTO CERTO PDF Conversao,PDF,CNPJ,1,1,1,,1,1,D+1,,TESTE: layout com conversao unidade-caixaria por EAN/SKU; itens sem fator ficam como ALERTA - NÃO CONVERTIDO.
+37,37,TESTE SUPER UBIALLI PDF Conversao,PDF,CNPJ,1,1,1,,1,1,D+1,,TESTE: layout com conversao unidade-caixaria via CSV/mapa; gera somente Excel de validação.
+38,38,REDE CELEIRO PDF Conversao,PDF,CNPJ,1,1,1,,1,1,D+1,,Rede Celeiro com conversao unidade-caixaria via CSV/mapa; centro de referência fixado em Chapecó/BFDZ; validação obrigatória antes de TXT/fila.
+39,39,REDE COASUL PDF Conversao,PDF,CNPJ,1,1,1,,1,1,D+1,,PDF Coasul Ordem de Compra; CNPJ cliente no bloco Dados para Faturamento; EAN em COD. BARRAS; QTDE em unidade; conversao por EAN/SKU via mapa de produtos antes do TXT/fila.
+40,27,GRUPO E.M.O.P. / PARTEKA Excel Flex,EXCEL,CNPJ,1,1,1,,1,1,D+1,,"Excel Flex Parteka/EMOP: lojas em colunas 001/002/006..., CNPJ no bloco Loja/Razão Social, SKU em Cod Forn ou exceção por Cod Barras, QTD já em caixaria. Gera Excel de validação antes de TXT/fila. PEDIDO_OPCIONAL: layout Flex antigo pode não trazer número de pedido por linha; Robô usa ponto técnico compatível."
+41,40,REDE IQUEGAMI Excel Pedido,EXCEL,MATRICULA,1,1,1,,1,1,D+1,,Excel Iquegami: cabeçalho Loja / Ref. Fornecedor / Qtde.; aceita .xls/.xlsx e múltiplas abas; Loja é matrícula; CNPJ vem do de/para; QTD já em caixaria.
+LAYOUT_GRANCOFFEE_EXCEL,GRANCOFFEE,GRANCOFFEE - SPAL EMAIL + ANEXOS,EXCEL,MATRICULA,1,1,1,Pedido,AUTO,AUTO,CORPO_EMAIL_POR_MATRICULA_PEDIDO,DATA_REMESSA_EMAIL,Grancoffee/SPAL: anexo Excel importado manualmente ou via Outlook; data oficial de remessa vem do corpo do e-mail salvo no metadata Outlook por matrícula + pedido.
+LAYOUT_GRANCOFFEE_MSG,GRANCOFFEE,GRANCOFFEE - SPAL EMAIL + ANEXOS,MSG,MATRICULA,1,1,1,Pedido,AUTO,AUTO,CORPO_EMAIL_POR_MATRICULA_PEDIDO,DATA_REMESSA_EMAIL,Grancoffee/SPAL: arquivo .msg com corpo do e-mail e anexos Excel; processador dedicado gera Excel de validação antes de qualquer fila/TXT.

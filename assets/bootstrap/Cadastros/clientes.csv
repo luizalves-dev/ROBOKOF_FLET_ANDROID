@@ -1,0 +1,41 @@
+cliente_id,nome_cliente,ativo,observacoes
+23,COELHO DINIZ,1,Layout Excel em lote com pedido e relacao de matriculas/datas
+13,BOZZA,1,Layout PDF Bozza sem conversao unidade-caixa
+14,MONACO,1,Layout PDF Monaco sem conversao unidade-caixa
+15,DAHER,1,Layout PDF Daher sem conversao unidade-caixa
+16,PRIMATO,1,Layout PDF Primato sem conversao unidade-caixa
+17,SUPERLAR,1,Layout PDF Superlar sem conversao unidade-caixa
+18,INDIANA,1,Layout PDF Indiana sem conversao unidade-caixa
+19,KACULA,1,Layout PDF Kacula sem conversao unidade-caixa
+20,REDE VIP,1,Layout Excel matricial Rede VIP sem conversao unidade-caixa
+21,MANO DOCES,1,Layout Excel matricial Mano Doces sem conversao unidade-caixa
+22,BUFFON,1,Layout Excel matricial Buffon sem conversao unidade-caixa
+1,DAISO,1,Layout Excel homologado V1
+2,TISCHLER,1,Layout PDF com m�ltiplos pedidos
+3,ALABARCE,1,Layout PDF multi-lojas Bluesoft
+5,MILLER,1,Layout PDF Miller com multiplos pedidos
+6,COOPERCICA,1,Layout PDF Coopercica com multiplos pedidos
+7,DROGA CLARA,1,Layout PDF Droga Clara por loja
+8,REDE ITALO,1,Layout PDF Rede Italo ativado com conversão unidade-caixaria rastreável; base prioritária + fallback mapa.
+9,BARRACAO,1,Layout PDF Barracao por loja
+10,GALASSI,1,Layout PDF Galassi multi-clientes
+11,SEMPRE VALE,1,Layout PDF Sempre Vale multi-clientes
+12,FESTIVAL,1,Layout PDF Festival multi-clientes
+4,BAKLIZI,1,Layout PDF TOTVS com múltiplos pedidos
+24,PASSARELA CENTER,1,Layout PDF/imagem em homologacao controlada; sem conversao unidade-caixa; OCR/rastreabilidade
+25,MAX CENTER,1,Layout PDF candidato/alias Superlar; sem conversao unidade-caixa
+26,MABY SUPERMERCADOS,1,Layout PDF em homologacao controlada; sem conversao unidade-caixa
+27,GRUPO E.M.O.P. / PARTEKA,1,Rede Grupo E.M.O.P. / Parteka; PDF em homologação e Excel Flex dedicado integrado ao Robô KOF.
+28,BELTRAME,1,Layout PDF em homologacao controlada; EAN/SKU sem divisao de quantidade
+29,RASTREABILIDADE PDF,1,Layout generico de homologacao PDF para arquivos sem sugestao segura; gera Excel de validacao sem TXT/fila
+30,RASTREABILIDADE EXCEL,1,Layout generico de homologacao Excel para arquivos sem sugestao segura; gera Excel de validacao sem TXT/fila
+31,SUPERMAIS,1,Layout PDF Supermais; SKU=Codigo Forneced; quantidade=Pedido Embal; sem conversao unidade-caixa
+32,PANELAO,1,Layout PDF Panelao; SKU=REF; quantidade=QTDE COMPRA; sem conversao unidade-caixa
+33,CAITA,1,Layout PDF Caita; SKU=Referencia; quantidade=Quant Caixa; sem conversao unidade-caixa
+34,REDE ESTRELA,1,Layout PDF Estrela TOTVS RELPEDSUPRIM; sem conversao unidade-caixa; valida CNPJ x matricula.
+35,TESTE REDE ALFA,1,Layout em teste com conversao unidade-caixaria via CSV/mapa de produtos.
+36,TESTE PONTO CERTO,1,Layout em teste com conversao unidade-caixaria via CSV/mapa de produtos.
+37,TESTE SUPER UBIALLI,1,Layout em teste com conversao unidade-caixaria via CSV/mapa de produtos.
+38,REDE CELEIRO,1,Layout Celeiro com conversao unidade-caixaria; centro de referência obrigatório Chapecó/BFDZ via CSV.
+39,REDE COASUL,1,Layout PDF Coasul Ordem de Compra; COD. BARRAS/EAN + QTD em unidade com conversao por mapa de produtos.
+40,REDE IQUEGAMI,1,"Layout Excel Iquegami integrado do projeto robo_iquegami_excel; múltiplas abas/arquivos; matrícula em Loja, SKU em Ref. Fornecedor e QTD em Qtde."

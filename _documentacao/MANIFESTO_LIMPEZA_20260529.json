@@ -1,0 +1,26 @@
+{
+  "autor": "Kauê Melo",
+  "data": "2026-05-29",
+  "acao": "Limpeza profissional, organização de pastas, integração Grancoffee e preservação de layouts produtivos.",
+  "total_arquivos": 165,
+  "arquivos_principais_alterados": [
+    "Codigos/app_gui.py",
+    "Codigos/importador_clientes.py",
+    "Codigos/importador_outlook_service.py",
+    "Codigos/layouts/rede_grancoffee.py",
+    "Cadastros/layouts.csv",
+    "Cadastros/rastreabilidade_layouts.csv",
+    "Cadastros/mapeamento_campos.csv",
+    ".gitignore",
+    "README_ROBO_KOF_ORGANIZADO.md",
+    "_documentacao/05_RELATORIO_LIMPEZA_ORGANIZACAO_GRANCOFFEE_20260529.md"
+  ],
+  "limpezas": {
+    "removidos_cache_pycache_pyc": true,
+    "resultados_antigos_limpos": true,
+    "entradas_antigas_limpos": true,
+    "duplicidade_mapa_produtos_removida": true,
+    "scripts_validacao_movidos_para_manutencao": true
+  },
+  "arquivos_removidos_ou_movidos_qtd": 169
+}

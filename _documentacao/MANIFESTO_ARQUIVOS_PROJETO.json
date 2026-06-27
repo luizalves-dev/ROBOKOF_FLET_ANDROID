@@ -1,0 +1,797 @@
+[
+  {
+    "path": ".env.example",
+    "size": 767,
+    "sha256": "22570963d0e7d6edab23291a1fb9134b55a49f93ef5f4198679a7e1271a49070"
+  },
+  {
+    "path": ".gitignore",
+    "size": 529,
+    "sha256": "cd17e22696381e59db4ae00d54ffda9541bf0f303a7fa0d8022d8c319733c195"
+  },
+  {
+    "path": "Arquivos Base/BASE PRODUTOS ITALO -atualizada.xlsx",
+    "size": 34430,
+    "sha256": "c8e0dea54472f02a06049c4b308c92afa509aeb9b2171d9d8e0087a7f52fbc60"
+  },
+  {
+    "path": "Arquivos Base/BASE de GLNS.xlsx",
+    "size": 658568,
+    "sha256": "441cbb427b0f2bc396f642856be9eb14f3cc0e099681f7a05d18024bbe392094"
+  },
+  {
+    "path": "Arquivos Base/BH_CNPJ_MATRICULA_BASE.txt",
+    "size": 17707,
+    "sha256": "bb1eaaca5031b051201d40cbc03c8f11238001e9b37747fb845d385c732b0618"
+  },
+  {
+    "path": "Arquivos Base/Exemplo envio.xlsx",
+    "size": 515768,
+    "sha256": "373cd44b0f16714a87b805e00f763dfb9d2d33c55859d84cdaa46a1df1b3159b"
+  },
+  {
+    "path": "Arquivos Base/GABARITO MILLER 1 1.xlsx",
+    "size": 1833228,
+    "sha256": "9fa5b495d35d79a75663938bea91bb0416d87dd15241ccb7a5f8bba6b152e29e"
+  },
+  {
+    "path": "Arquivos Base/Gabarito Tischler - ATUALIZADO 2.xlsx",
+    "size": 37306268,
+    "sha256": "743dd345275ed65aeeff8aafaac865988ca296e6fe7706f2e0b5ee76e6d0df84"
+  },
+  {
+    "path": "Arquivos Base/Iquegami/de_para_matricula_cnpj.csv",
+    "size": 613,
+    "sha256": "b8c71757daad87e77d6d921ca9bbe555cf92a7c9df7facb967819cb789abea6b"
+  },
+  {
+    "path": "Arquivos Base/Mapa de Produtos/mapa de produtos mais atualizado 08.04.xlsx",
+    "size": 3594713,
+    "sha256": "18b57ada0c47e8775a2ee61358ed902129d8b60d4fde75dd889dec2a620952ed"
+  },
+  {
+    "path": "Arquivos Base/Parteka_EMOP/base_cnpj_matricula_exemplo.xlsx",
+    "size": 5215,
+    "sha256": "84fa4eacadd121cedcc0e562375f0073ce445ba8cd88cabbba8534495b183273"
+  },
+  {
+    "path": "Arquivos Base/mapa de produtos mais atualizado 08.04.xlsx",
+    "size": 3594713,
+    "sha256": "18b57ada0c47e8775a2ee61358ed902129d8b60d4fde75dd889dec2a620952ed"
+  },
+  {
+    "path": "Cadastros/_ADICOES_de_para_clientes_BAKLIZI.csv",
+    "size": 2991,
+    "sha256": "4c336f54ca59b83662af4587954804dbfdc966159cc9e7ee9daa9b109ee3565e"
+  },
+  {
+    "path": "Cadastros/clientes.csv",
+    "size": 3295,
+    "sha256": "dc3e03bbe70fc719d0d0d5643f838b5482c62f174e29f18ba2a2ccb9d2e92878"
+  },
+  {
+    "path": "Cadastros/de_para_clientes.csv",
+    "size": 42920,
+    "sha256": "420a8c6937e8fa0d291041ba1096245e5940cbdaca2409c539bbb180529ddfb5"
+  },
+  {
+    "path": "Cadastros/diagnostico_regras_conversao.csv",
+    "size": 373,
+    "sha256": "9d18f897db7d788733ca9c0ee73469783b9c39568f6101ca74b0eb0455ffefbf"
+  },
+  {
+    "path": "Cadastros/layouts.csv",
+    "size": 7623,
+    "sha256": "57ef11c613d058463b7dba912f6ff167c357413d5bdb8b2915397ee8645fe4d3"
+  },
+  {
+    "path": "Cadastros/layouts_em_homologacao.csv",
+    "size": 876,
+    "sha256": "c7de842963291e6ec1841593dff1131502ffc0858e338ecc782272745a272b2e"
+  },
+  {
+    "path": "Cadastros/mapeamento_campos.csv",
+    "size": 20231,
+    "sha256": "ecbcd5bea77cb120306a7d34668c6435f528229c7077a86b852bd62e4afd23da"
+  },
+  {
+    "path": "Cadastros/rastreabilidade_layouts.csv",
+    "size": 8744,
+    "sha256": "c342b29219eac7255e417616671761e56ed579ce379b23c3a260ab623d070f0d"
+  },
+  {
+    "path": "Cadastros/regras_conversao.csv",
+    "size": 3211,
+    "sha256": "d66111937a93e2cace4b6152f2a62a1b8786adfcbe9530584507eda19b42b088"
+  },
+  {
+    "path": "Codigos/README.md",
+    "size": 591,
+    "sha256": "529f357794366db885cbac178d75894e0f1e41c911e717c2aac391d9c41e0ca0"
+  },
+  {
+    "path": "Codigos/app_gui.py",
+    "size": 183631,
+    "sha256": "be5b02f60102851fcafe6f4e7e2efdcbc8edf60c71c1d6e3a148ea24900149eb"
+  },
+  {
+    "path": "Codigos/barracao_processor.py",
+    "size": 33028,
+    "sha256": "371c4abc2bbb3ee5af78b61f902d3daf01c12686d16c032fb2c977b0c323d810"
+  },
+  {
+    "path": "Codigos/cadastro_service.py",
+    "size": 3048,
+    "sha256": "f117f28d72d27e026aa40772f933c866bc8288c24fc835a9edfa45fb39d544a2"
+  },
+  {
+    "path": "Codigos/config.py",
+    "size": 8995,
+    "sha256": "cb4a06941386bc24a7b1c3358ed096968eae1ab5bf54222a4e5d2e1936dc686b"
+  },
+  {
+    "path": "Codigos/conversao_service.py",
+    "size": 35257,
+    "sha256": "6a04beac095dd33754ee6b17906717088c9c46a0f8ecea08941087c619874dd3"
+  },
+  {
+    "path": "Codigos/core/__init__.py",
+    "size": 58,
+    "sha256": "6db124372f554090d4460a32fc346e052edfa7e1a1c7e141f2312c6872d5463c"
+  },
+  {
+    "path": "Codigos/core/layout_contract.py",
+    "size": 1664,
+    "sha256": "fa872d6ced6f3238c0b46f9afe39868d744b187c8a205e846a6f45b17046a16c"
+  },
+  {
+    "path": "Codigos/core/project_structure.py",
+    "size": 2564,
+    "sha256": "90300b936ba7eb83e76f81b1b1dfbda72d5f9300b4ef17175c0fb769560d1374"
+  },
+  {
+    "path": "Codigos/core/validation_stage.py",
+    "size": 913,
+    "sha256": "8f4c8e519a51d7bac750f7b56530abed551e8732cfbdea113fc5417d70869bb6"
+  },
+  {
+    "path": "Codigos/depara_clientes_service.py",
+    "size": 17473,
+    "sha256": "5030e26393015c1da96d859a9a306d7630899aeda41b00541c30d47cc498bdd1"
+  },
+  {
+    "path": "Codigos/diario_bh.py",
+    "size": 4383,
+    "sha256": "c181fa8e2a16d863dc24fc1ef36e25fd83441aa1a71d558b80e28cbedf8c3627"
+  },
+  {
+    "path": "Codigos/fila_service.py",
+    "size": 1854,
+    "sha256": "e5033e5c61025e9781304bb7aeddff10868d0695a89ea0ddea5c751f23d94b42"
+  },
+  {
+    "path": "Codigos/gerador_erro.py",
+    "size": 52226,
+    "sha256": "4cf43cdf0cba7d72456fd59b476c71438f6891e63109f9e552972a6364425259"
+  },
+  {
+    "path": "Codigos/gerador_robokof.py",
+    "size": 5096,
+    "sha256": "1e58240020285fac50ba6ad1b6f5a04d916fed7ebfa28697f1b4b821b7d25828"
+  },
+  {
+    "path": "Codigos/gerador_txt_edi.py",
+    "size": 9721,
+    "sha256": "f7a1d6d2d310f7e0c67cee563d3b1612fcd601034486f51040850760f7daab1e"
+  },
+  {
+    "path": "Codigos/gln_service.py",
+    "size": 6536,
+    "sha256": "3f17724e01db09ec5f65debfb2e47fb3817f2b68834b4fd0e7373d109122712d"
+  },
+  {
+    "path": "Codigos/historico.py",
+    "size": 1577,
+    "sha256": "259d21166ae1415dc2e128c79be3e3aa1131a55adb4dbee99930d755ab527782"
+  },
+  {
+    "path": "Codigos/identidade_pedidos.py",
+    "size": 17158,
+    "sha256": "91c1fc98c18362661ae771b98230bcd69abc8092e58e1a2468729294dbaf7b89"
+  },
+  {
+    "path": "Codigos/importador_clientes.py",
+    "size": 45341,
+    "sha256": "647e881c674825a5e656f2cd2f8ab53c47bddb8f0074d2b483505b17fc2ad090"
+  },
+  {
+    "path": "Codigos/importador_outlook_service.py",
+    "size": 48149,
+    "sha256": "2503928e90eb2e4767f0005da5e660ed9e09e35bc907879ae86b9294f89cf2e4"
+  },
+  {
+    "path": "Codigos/integracoes/__init__.py",
+    "size": 79,
+    "sha256": "e00836dfcf8da935d908b1bd1ce734c2b3786991edf20515716afcd39599b92d"
+  },
+  {
+    "path": "Codigos/integracoes/rede_iquegami/__init__.py",
+    "size": 253,
+    "sha256": "306e50a6bd40e297be96334caecd39a6bf97d022b8b6f7a598adf56ee30c185e"
+  },
+  {
+    "path": "Codigos/integracoes/rede_iquegami/de_para_matricula_cnpj.csv",
+    "size": 613,
+    "sha256": "b8c71757daad87e77d6d921ca9bbe555cf92a7c9df7facb967819cb789abea6b"
+  },
+  {
+    "path": "Codigos/integracoes/rede_iquegami/parser_iquegami_kof.py",
+    "size": 32326,
+    "sha256": "aea35c3c39eb7655e473dcaf640727d7a5bc04786ce8c89d72a6066e8d89faf7"
+  },
+  {
+    "path": "Codigos/integracoes/rede_iquegami/xls_biff_fallback.py",
+    "size": 8803,
+    "sha256": "0aa16eec0968bcd2f0585622118d7a6ec592e0469b5320258beb16c219f93077"
+  },
+  {
+    "path": "Codigos/integracoes/registrar_iquegami_robo_kof.py",
+    "size": 763,
+    "sha256": "1a3b0935f674c847e00adee5a1c01e313404958e11e99052425121eb3744f23d"
+  },
+  {
+    "path": "Codigos/layout_standard.py",
+    "size": 3875,
+    "sha256": "0b1764137c21daefe38505cfcc5c843bc7c9f161691c1cbd8d55d9cb78d50f79"
+  },
+  {
+    "path": "Codigos/layouts/__init__.py",
+    "size": 64,
+    "sha256": "f86be817f7ebd963c7ef1775e67ebbb79d0fff50bbe04027c1d65d2b7aa17349"
+  },
+  {
+    "path": "Codigos/layouts/iquegami.py",
+    "size": 670,
+    "sha256": "1781795c246f2c25298932eca67330cfe155e5522879f2eb48bd18bb2e233821"
+  },
+  {
+    "path": "Codigos/layouts/rede_bh/__init__.py",
+    "size": 46,
+    "sha256": "efff3deb33150c470d033e763a29a222628e58715ca5b6a0d8517e291b0d3eb7"
+  },
+  {
+    "path": "Codigos/layouts/rede_bh/cnpj_mapping.py",
+    "size": 7199,
+    "sha256": "8140f6fddd983779d3724878fa81a96df6505bce13d15ccaa915c45bd8626171"
+  },
+  {
+    "path": "Codigos/layouts/rede_bh/processor.py",
+    "size": 76792,
+    "sha256": "83c456bfc8a6d1b3b292514ce13b903dd07845cd775816cbc9bda2b9fb6a8183"
+  },
+  {
+    "path": "Codigos/leitor_excel_clientes.py",
+    "size": 9773,
+    "sha256": "6520bbfe292f265700eef78d650d78b3eb893b3fd403b244d9cde3fabd883ae9"
+  },
+  {
+    "path": "Codigos/leitor_fila.py",
+    "size": 693,
+    "sha256": "90210122a688e58a2cddc27cbe7cbf85b777913cad9a750dc5a4db018875c190"
+  },
+  {
+    "path": "Codigos/leitor_pdf_clientes.py",
+    "size": 16201,
+    "sha256": "77db3a211e03723d1e693f35c8e578319ff239fffdcc44fe4d29ff643d0915ca"
+  },
+  {
+    "path": "Codigos/main.py",
+    "size": 16068,
+    "sha256": "763f4fdf68004827fe3995390b545e5297cc373477fbf409ab1de3352c6274df"
+  },
+  {
+    "path": "Codigos/padronizador_pedidos.py",
+    "size": 21205,
+    "sha256": "fa735567e794d9bc84a28da593c4ebcb0a0abc141fcda7eed357c09216e207b4"
+  },
+  {
+    "path": "Codigos/parsers_excel/__init__.py",
+    "size": 45,
+    "sha256": "26fb11db4ec3c5d887fa49b6fbf230cb5265d65a1b7ab21ee5a89b04d8798464"
+  },
+  {
+    "path": "Codigos/parsers_excel/coelho_diniz.py",
+    "size": 25752,
+    "sha256": "ad414952796efdacc36efdc59ec33b09640a77d02a6908bbea8ccc20e7e73338"
+  },
+  {
+    "path": "Codigos/parsers_excel/excel_emop_parteka.py",
+    "size": 13956,
+    "sha256": "5dda8e1c102221bfc3e544d88264a2a54011703a9c0832b20ed9371606085d56"
+  },
+  {
+    "path": "Codigos/parsers_excel/excel_generico_homologacao.py",
+    "size": 10731,
+    "sha256": "a0fe1b5b1ad4cd23704a802374e47a84ff27043e360312bcd159ae3542bcfc3f"
+  },
+  {
+    "path": "Codigos/parsers_excel/excel_iquegami.py",
+    "size": 30583,
+    "sha256": "130b41642c15db31d03730ec87468f8577df8d7fef417e3c8906ec136f92366d"
+  },
+  {
+    "path": "Codigos/parsers_excel/layouts_adicionais.py",
+    "size": 8622,
+    "sha256": "08bbdf3aba7165660597579497d5bf9b50bf3c48065671b5c81078250e4e3d76"
+  },
+  {
+    "path": "Codigos/parsers_excel/xls_biff_fallback.py",
+    "size": 8803,
+    "sha256": "0aa16eec0968bcd2f0585622118d7a6ec592e0469b5320258beb16c219f93077"
+  },
+  {
+    "path": "Codigos/parsers_pdf/INSTRUCOES_APLICACAO_ROBO_KOF.md",
+    "size": 2869,
+    "sha256": "82c8bb0fde5b13a259a18b764241ec1dc170f3a4edc5e1c379c67786046bb47e"
+  },
+  {
+    "path": "Codigos/parsers_pdf/__init__.py",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Codigos/parsers_pdf/aplicar_correcao_baklizi_modelo.py",
+    "size": 1350,
+    "sha256": "84735ef459c426b6ac02b01dc6e3642046c14059462e4678ae9c77b9a9de40a3"
+  },
+  {
+    "path": "Codigos/parsers_pdf/baklizi_modelo_sem_bloqueio_alerta.py",
+    "size": 8506,
+    "sha256": "a35a46af03bdd6412da4a627f51239fe9843ec2fe6a9beaa4f79d60c023a1ae8"
+  },
+  {
+    "path": "Codigos/parsers_pdf/ean_sku_map.py",
+    "size": 3172,
+    "sha256": "707c0dec0faca3842a11592b23ffe89007d265cf448f756f8477d3898e9c52c9"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_alabarce.py",
+    "size": 32862,
+    "sha256": "38e217dd89e55117fb08cd93663d06b3989e49c0011b4f596e0397b18452f39c"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_baklizi.py",
+    "size": 15891,
+    "sha256": "de23350ab6fe02f7f655578e83efb6fc4e66fc3caeb38c1caf0631a03b8f8162"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_barracao.py",
+    "size": 10984,
+    "sha256": "e719ff89b0a6b9b7abdabe6989737ca02fceb20e8c3a71443e8d0aaab4dfab7c"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_caita.py",
+    "size": 14579,
+    "sha256": "207dab1ac0422f730f728a42819240ef00d97f224ee669b976361c32f511016c"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_coasul.py",
+    "size": 10308,
+    "sha256": "659aafedeecaa325a3de42f612376f9d4f06c27b4faf70b51d3169d02f99fda2"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_coopercica.py",
+    "size": 13102,
+    "sha256": "dfdcc3cbefec5dfdb1e6d0a08f91d275c24482e1c9ad5ed3eecf41a7480b7a15"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_droga_clara.py",
+    "size": 4961,
+    "sha256": "7388f99757cb5a9db7bd44ae862c814a61c4a633caae9be1242e3684c956e5e9"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_emop_parteka.py",
+    "size": 1142,
+    "sha256": "479950ea411e5478e80cf8b723886ff68eb33dc9e7674e18c697c2417e61b7df"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_estrela.py",
+    "size": 17817,
+    "sha256": "19937f13fbe44cc76355bcf204baf14cca21d540f636c25aebc793457970256d"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_festival.py",
+    "size": 6021,
+    "sha256": "67868e86dd6005c9b32ea31e568ffa958772a36a9f9469b4b75940bf5cf0b415"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_galassi.py",
+    "size": 5557,
+    "sha256": "18e2403b1a4c61c35438fe256a808e5b9675a751ce8b7bd5de1f1aa68126f1ce"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_generico_homologacao.py",
+    "size": 15265,
+    "sha256": "6b9450dbb8ab987c887cf67a3a37dd4f2a0c90449b8d62ba8607e1cb31550f80"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_layouts_adicionais.py",
+    "size": 38908,
+    "sha256": "3017a8978e53c738b42002f78df2182ae2b7db821df4a192b25c2e23ffee21ff"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_maby.py",
+    "size": 11698,
+    "sha256": "4ea71c5882a63073e855896572e87d6bb2c56296a95b72c20ff78ecb2e336943"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_miller.py",
+    "size": 7704,
+    "sha256": "87eaa2322478674edada961b23bdd4a5f79fc609d0307f7b568a0ab7c20770d7"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_panelao.py",
+    "size": 12245,
+    "sha256": "fde96369ebfa215b402732e49cd826d318e3969b82450f32d176f289886497c5"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_rede_italo.py",
+    "size": 12741,
+    "sha256": "76f66c945b39b7298ba8e37172cd63c17178db470db460f437764d8a2f0e23b9"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_sempre_vale.py",
+    "size": 15265,
+    "sha256": "97e10f774ab89f5272bc46511bd5e726e6278697957c54cc62eede1ec3dd9b41"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_super_ubialli.py",
+    "size": 8516,
+    "sha256": "9006e3e8572838047246f6ee92cafe294b1988a735f6452662a92e63c3cec635"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_supermais.py",
+    "size": 11851,
+    "sha256": "54de259ef2e3f5da366bd957b599a8cdbcfdc4fff5491155f2438a40105f1009"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_tischler.py",
+    "size": 7774,
+    "sha256": "4cb9e44af8a85953692559126dff2a907c228a349eee1ec294c0fab36a07fa8d"
+  },
+  {
+    "path": "Codigos/parsers_pdf/pdf_utils.py",
+    "size": 8877,
+    "sha256": "1497a12ffa1faf4581d301fdf2d5522a6fa163968cc088d7b6e5c452639a1ac7"
+  },
+  {
+    "path": "Codigos/parsers_pdf/testar_baklizi_69651_layout.py",
+    "size": 1385,
+    "sha256": "d95e5ca5544078d42803d1081d8695663b445cde43519ccbdd521c039e6dbf0f"
+  },
+  {
+    "path": "Codigos/pdf_alert_utils.py",
+    "size": 3510,
+    "sha256": "7e98cc26a70384629086fa75202dd8374931a8eb8d97ed4379afc13ad645e63a"
+  },
+  {
+    "path": "Codigos/rastreabilidade_layouts.py",
+    "size": 40050,
+    "sha256": "6c0160cfc586b9b0545302f412ba7eb6e4581ba0ee4d388e32cc9125fe72e8f7"
+  },
+  {
+    "path": "Codigos/sap_fluxo.py",
+    "size": 6843,
+    "sha256": "f501e3b2ba0cfee4540745f6f58c65cb332c2df3e516ed9da60d05ca693a39d2"
+  },
+  {
+    "path": "Codigos/sap_session.py",
+    "size": 3476,
+    "sha256": "34828c1e09722dfe2fcc2e44cfca6f1b63d8710fe14b107a392234c7132ea351"
+  },
+  {
+    "path": "Codigos/scripts_manutencao/__init__.py",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Codigos/scripts_manutencao/criar_novo_layout_robo_kof.py",
+    "size": 1271,
+    "sha256": "701eae2e9ffa0669dc78b3ae1c4da6d0c214c5512dce8c5dac0e76b589a00df8"
+  },
+  {
+    "path": "Codigos/scripts_manutencao/diagnosticar_organizacao_robo_kof.py",
+    "size": 1379,
+    "sha256": "9cb7799bc1bc5212515df3d6c7a006765b8fd1a62838f9369dd91537d9836aa6"
+  },
+  {
+    "path": "Codigos/scripts_manutencao/validar_projeto_robo_kof.py",
+    "size": 3606,
+    "sha256": "1087a01598bc2724ed9f555e42601245c994d313cd76e3d709debb30140673de"
+  },
+  {
+    "path": "Codigos/templates_novo_layout/README_TEMPLATE_NOVO_LAYOUT.md",
+    "size": 431,
+    "sha256": "198d84f97970943b7c90a6c61b685f72bc35c93fe77af17026b7e4b2b18f623e"
+  },
+  {
+    "path": "Codigos/templates_novo_layout/checklist_cadastro_layout.csv",
+    "size": 323,
+    "sha256": "3f14c2fcc81602796f9d0db58e6c5be270074a9a239a744684ae465d108ea55b"
+  },
+  {
+    "path": "Codigos/templates_novo_layout/parser_excel_template.py",
+    "size": 887,
+    "sha256": "8966d27dda35958898dbc7792bc3e0f734c760372d48937f70c8769ba4b38eef"
+  },
+  {
+    "path": "Codigos/templates_novo_layout/parser_pdf_template.py",
+    "size": 898,
+    "sha256": "71b26106aa48215a6cba4699320996749f6402e4ff5a07b0ee9ea2730619e961"
+  },
+  {
+    "path": "Codigos/terminal_logger.py",
+    "size": 910,
+    "sha256": "efb0e083c6640e938fc2910d6192e9d8a13924aa7713ed29cc47d6d02d326863"
+  },
+  {
+    "path": "Codigos/teste_explorador.py",
+    "size": 393,
+    "sha256": "01319ac449dbfef1a9b03ea021d6c25622720d5fe8914059d8a07b2a96b513bd"
+  },
+  {
+    "path": "Codigos/tratador_datas.py",
+    "size": 2389,
+    "sha256": "9491f0d2b4279c634846d634a3a0caa232877a57c42fe1376908d1365addadbc"
+  },
+  {
+    "path": "Codigos/utils.py",
+    "size": 2893,
+    "sha256": "0e11257bca9074560d422efff5be63bca4150c9ecb1a1b5b6d7aa803b24ff7a9"
+  },
+  {
+    "path": "Codigos/validacoes.py",
+    "size": 7288,
+    "sha256": "dd5f6f3f4c25e5bac085ecf715d3ae1a6df07d4f813d00e409784ed0e386b0e5"
+  },
+  {
+    "path": "Codigos/validar_alabarce.py",
+    "size": 4268,
+    "sha256": "09be9c7999f0cde277004bb58f02e224dcf0e2671d31b2b3226467fb3351e1b1"
+  },
+  {
+    "path": "Codigos/validar_baklizi_final_sem_zerar_modelo.py",
+    "size": 1377,
+    "sha256": "5f8f12a9877d0158487b14c34383e4af670eb8f04db6bd1c2310bc4518c5ad5b"
+  },
+  {
+    "path": "Codigos/validar_baklizi_modelo.py",
+    "size": 4009,
+    "sha256": "78c9e19b21d48ebf28e1c215fb0d826759346b5bc3d18e3405b3360f49355633"
+  },
+  {
+    "path": "Codigos/validar_baklizi_modelo_rastreabilidade.py",
+    "size": 3389,
+    "sha256": "4734e1e23bbbd1d0f5016a457a1d09d89f76b1066a3c7e7f1e14c1428214801e"
+  },
+  {
+    "path": "Codigos/validar_bh.py",
+    "size": 9773,
+    "sha256": "984245b6244fb80292e16c20b4324655749859de57b103cd36e6d380699ba62e"
+  },
+  {
+    "path": "Codigos/validar_bh_super_ubialli.py",
+    "size": 721,
+    "sha256": "cd74c9694bc5dfac938fd52d6fca79cb7681a2a188cc6ac1880d0d6576db30af"
+  },
+  {
+    "path": "Codigos/validar_conversao_regras.py",
+    "size": 8329,
+    "sha256": "b7c40b3f56af025e70af6122c3e68a4eb93797476b887f338e92b7c340d01ad1"
+  },
+  {
+    "path": "Codigos/validar_droga_clara_identificacao.py",
+    "size": 1183,
+    "sha256": "61423d013b58e0dc9cc90fdc45505bf352b0553dd3a8f1b7c3994d974bd68a16"
+  },
+  {
+    "path": "Codigos/validar_estrutura_robo_kof.py",
+    "size": 11598,
+    "sha256": "f40d16f21dc034b7e614bc20a959cff4a2f1cf0ad3f029db2363f9053c349019"
+  },
+  {
+    "path": "Codigos/validar_excel_enterprise.py",
+    "size": 4430,
+    "sha256": "b57ca7950c009dfd9d06cf9d2ef57e806bed6f0ae9fdd6f831c62b2e8cc1a5c8"
+  },
+  {
+    "path": "Codigos/validar_identidade_layouts.py",
+    "size": 6304,
+    "sha256": "b35f85f92816a4d77852b0378ac64fb2afbf65c9537e9457f217a9fefcd259dd"
+  },
+  {
+    "path": "Codigos/validar_integridade_total_robo_kof.py",
+    "size": 9827,
+    "sha256": "4ab10b502ed47a5d1fec909cc16530bdfd2f07f1f7df48a63295218b54f9f9b3"
+  },
+  {
+    "path": "Codigos/validar_outlook_multiplos_emails.py",
+    "size": 3346,
+    "sha256": "f452f6c35b516263df7ef1f7447c9fbd4c8fd4cbddb4997d53cc215b88870569"
+  },
+  {
+    "path": "Codigos/validar_outlook_todos_pdfs_fluxos.py",
+    "size": 2769,
+    "sha256": "496f0acdc58db8a328f399437418f313669fb514bfafed65950d080c2f77e4db"
+  },
+  {
+    "path": "Codigos/validar_parteka_iquegami.py",
+    "size": 3348,
+    "sha256": "d0207115edaf2b1650dcab5860fba1a707c7b6884155bd4d6abbc9373d7e9ccb"
+  },
+  {
+    "path": "Codigos/validar_super_ubialli.py",
+    "size": 774,
+    "sha256": "e46d78f7e3438f1b1ff3a2ebd517c0cd159936b888cc7115d7f153ab02b60904"
+  },
+  {
+    "path": "Entradas_Clientes/Excel/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Entradas_Clientes/Outlook/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Entradas_Clientes/PDF/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Entradas_Clientes/Processados/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "INICIAR_ROBO_KOF.bat",
+    "size": 80,
+    "sha256": "e834f7db58a6b24d75c188f903e6fb3dd3e1da735374156e544bf0e1665794c6"
+  },
+  {
+    "path": "README.main.md",
+    "size": 5017,
+    "sha256": "3d6dd9f824875e57ca54d2e17e2d3eef16adbe548e4e116f32a49256bc24b1df"
+  },
+  {
+    "path": "REFERENCIAS_INCLUIDAS_COOPERCICA_BARRACAO.csv",
+    "size": 9174,
+    "sha256": "b3769fac7e6b5466f462cc813da591f3354c04699077070322c31c7f9448a122"
+  },
+  {
+    "path": "Resultados/Arquivos ERRO/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/Arquivos Fila/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/Arquivos RoboKOF/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/Arquivos TXT EDI/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/Historico/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/Logs/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/historico_importacoes/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/pedidos_a_validar/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/pedidos_com_erro/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/pedidos_validados/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/temp/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Resultados/validacoes_clientes/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "VALIDAR_PROJETO_ROBO_KOF.bat",
+    "size": 116,
+    "sha256": "147a8dcfe7791c246e425c52c350259f8472655a0662c3b9965a323668665543"
+  },
+  {
+    "path": "_documentacao/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "_documentacao/00_MAPA_DO_PROJETO.md",
+    "size": 741,
+    "sha256": "8bd985a9762fbd1a7ffc4c30d0c97f406c3debd6db80daa09967b84ddd2358e2"
+  },
+  {
+    "path": "_documentacao/01_PADRAO_NOVO_LAYOUT_ROBO_KOF.md",
+    "size": 1013,
+    "sha256": "f9857645175d69c38c2f20bb8ca94f84e9f2312c84efb2dcf2a2ff9508857093"
+  },
+  {
+    "path": "_documentacao/02_GOVERNANCA_E_LIMPEZA_SEGURA.md",
+    "size": 585,
+    "sha256": "efaeb8f437bb9986c314fe4945e31de0a01e2caa31db0e86cba9da6d30655569"
+  },
+  {
+    "path": "_documentacao/03_CHECKLIST_TESTE_LAYOUT.md",
+    "size": 467,
+    "sha256": "3f475e51e09aec38244a5b09cb1e9f20691b2aef165cc4bff346e0b7d474ff13"
+  },
+  {
+    "path": "_documentacao/04_RELATORIO_REORGANIZACAO_20260527.md",
+    "size": 894,
+    "sha256": "a6341d6ec3b1196d16047a34ae0aa7c52b1c00bee51db0d73094385f146d0aeb"
+  },
+  {
+    "path": "_documentacao/INDICE_CADASTROS.csv",
+    "size": 442,
+    "sha256": "b9aa1afa1570c3643fbcd24ec70e71f978c58f3d4454a6f536bfa5ac8f0b3e0d"
+  },
+  {
+    "path": "_documentacao/MANIFESTO_ARQUIVOS_PROJETO.json",
+    "size": 25320,
+    "sha256": "81abb1de1a6004ae21048372b0d3e273810807186007e88a2c38cab37caf8b71"
+  },
+  {
+    "path": "_documentacao/checklists/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "_documentacao/modelos/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "_quarentena_segura/.gitkeep",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "requirements.txt",
+    "size": 602,
+    "sha256": "d259856743a47dd54c8ee00ac120d254c437ed905333357195a0008310a07fe3"
+  }
+]

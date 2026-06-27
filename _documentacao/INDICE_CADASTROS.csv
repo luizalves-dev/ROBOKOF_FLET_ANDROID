@@ -1,0 +1,8 @@
+﻿arquivo;finalidade
+clientes.csv;Cadastro principal de clientes/redes
+layouts.csv;Cadastro de layouts ativos
+mapeamento_campos.csv;Mapeamento de campos por layout
+rastreabilidade_layouts.csv;Rastreabilidade/identificação de layouts
+de_para_clientes.csv;De/para CNPJ, GLN, loja e matrícula
+regras_conversao.csv;Regras de conversão unidade para caixaria
+layouts_em_homologacao.csv;Layouts em homologação realocados do arquivo raiz .csv

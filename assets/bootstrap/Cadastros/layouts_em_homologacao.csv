@@ -1,0 +1,7 @@
+rede;status;tipo;parser;conversao_unidade_caixa;observacao
+PASSARELA CENTER;CADASTRADA EM HOMOLOGACAO;PDF/Imagem;pdf_generico_homologacao;NAO;"Usa OCR/fallback quando disponível; validar Excel antes de fila."
+MAX CENTER;CADASTRADA COMO ALIAS CONTROLADO;PDF;Superlar com fallback generico;NAO;"Usa parser Superlar por similaridade; validar Excel antes de fila."
+MABY SUPERMERCADOS;CADASTRADA EM HOMOLOGACAO;PDF;pdf_generico_homologacao;NAO;Precisa amostra/codigo antigo para parser próprio.
+GRUPO E.M.O.P.;CADASTRADA EM HOMOLOGACAO;PDF;pdf_generico_homologacao;NAO;Precisa amostra/codigo antigo para parser próprio.
+BELTRAME;CADASTRADA EM HOMOLOGACAO;PDF;pdf_generico_homologacao;NAO;"EAN/SKU direto sem divisão de quantidade; precisa gabarito/amostra para homologar."
+PRIMATO;JA ESTAVA CADASTRADA;PDF;pdf_layouts_adicionais.ler_pdf_primato;NAO;Mantida sem alteração.

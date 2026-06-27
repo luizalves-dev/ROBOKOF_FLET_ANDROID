@@ -1,0 +1,220 @@
+mapeamento_id,layout_id,campo_destino,origem_tipo,origem_valor,obrigatorio,tipo_dado,transformacao,observacoes
+1,1,matricula_lida,COLUNA,MATRICULA,1,TEXTO,LIMPAR_TEXTO,
+2,1,sku_lido,COLUNA,COD FORNEC,1,TEXTO,LIMPAR_TEXTO,
+3,1,quantidade_lida,COLUNA,QUANT/BOX,1,NUMERO,NUMERO,
+4,1,numero_pedido_lido,COLUNA,NR PEDIDO,0,TEXTO,LIMPAR_TEXTO,
+5,1,data_entrega_lida,COLUNA,ENTREGA|DATA|DT ENTREGA,0,TEXTO,LIMPAR_TEXTO,
+6,2,cnpj_lido,PDF_RULE,CNPJ,1,TEXTO,LIMPAR_TEXTO,Extra�do do bloco ENDERE�O DE ENTREGA
+7,2,sku_lido,PDF_RULE,BARCODE,1,TEXTO,LIMPAR_TEXTO,Barcode entra como SKU
+8,2,quantidade_lida,PDF_RULE,PEDIDA,1,NUMERO,NUMERO,Quantidade pedida do item
+9,2,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,N�mero do pedido do bloco
+10,2,data_entrega_lida,PDF_RULE,PREVISAO_ENTREGA,1,TEXTO,LIMPAR_TEXTO,Previs�o de entrega
+11,3,cnpj_lido,PDF_RULE,CNPJ_LOJA,1,TEXTO,LIMPAR_TEXTO,Extraído do bloco Observações
+12,3,sku_lido,PDF_RULE,REF,1,TEXTO,LIMPAR_TEXTO,Coluna Ref entra como SKU
+13,3,quantidade_lida,PDF_RULE,QTD_LOJA,1,NUMERO,NUMERO,Quantidade da coluna da loja
+14,3,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Número do pedido do cabeçalho
+15,3,data_entrega_lida,PDF_RULE,D+1,1,TEXTO,LIMPAR_TEXTO,Data calculada no parser como dia atual + 1z
+16,4,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente no bloco Dados para faturamento
+17,4,sku_lido,PDF_RULE,COD_FORN,1,TEXTO,LIMPAR_TEXTO,Codigo do item na primeira coluna
+18,4,quantidade_lida,PDF_RULE,QTDE,1,NUMERO,NUMERO,Quantidade do item na coluna Qtde
+19,4,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido no cabecalho
+20,4,data_entrega_lida,PDF_RULE,D+1,1,TEXTO,LIMPAR_TEXTO,Data calculada via regra D+1
+21,5,cnpj_lido,PDF_RULE,CNPJ_ENTREGA,1,TEXTO,LIMPAR_TEXTO,CNPJ do bloco ENDERECO DE ENTREGA
+22,5,sku_lido,PDF_RULE,REFERENCIA_EAN,1,TEXTO,LIMPAR_TEXTO,EAN lido diretamente da coluna Referencia do PDF
+23,5,quantidade_lida,PDF_RULE,QTD_CAIXAS,1,NUMERO,NUMERO,Quantidade em caixas antes de - CX
+24,5,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido no cabecalho
+25,5,data_entrega_lida,PDF_RULE,D+1,1,TEXTO,LIMPAR_TEXTO,Data remessa calculada como D+1
+26,6,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente no cabecalho
+27,6,sku_lido,PDF_RULE,COD_FORN,1,TEXTO,LIMPAR_TEXTO,Codigo fornecedor do item
+28,6,quantidade_lida,PDF_RULE,QTDE,1,NUMERO,NUMERO,Quantidade do item na coluna Qtde
+29,6,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido no cabecalho
+30,6,data_entrega_lida,PDF_RULE,D+1,1,TEXTO,LIMPAR_TEXTO,Data remessa calculada como D+1
+31,7,cnpj_lido,PDF_RULE,CNPJ_FILIAL,1,TEXTO,LIMPAR_TEXTO,CNPJ da filial no cabecalho
+32,7,sku_lido,PDF_RULE,CODIGO,1,TEXTO,LIMPAR_TEXTO,Codigo do produto na primeira coluna
+33,7,quantidade_lida,PDF_RULE,QTD,1,NUMERO,NUMERO,Quantidade do item na coluna Qtd
+34,7,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero Pedido do cabecalho
+35,7,data_entrega_lida,PDF_RULE,D+1,1,TEXTO,LIMPAR_TEXTO,Data remessa calculada como D+1
+36,8,cnpj_lido,PDF_RULE,CNPJ_EMPRESA,1,TEXTO,LIMPAR_TEXTO,CNPJ da empresa no cabecalho
+37,8,sku_lido,PDF_RULE,COD_BARRAS,1,TEXTO,LIMPAR_TEXTO,Codigo de barras do PDF entra como SKU
+38,8,quantidade_lida,PDF_RULE,QUANT_CONVERTIDA,1,NUMERO,NUMERO,Quantidade Quant dividida pela Conversao da base Italo
+39,8,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido no cabecalho
+40,8,data_entrega_lida,PDF_RULE,D+1,1,TEXTO,LIMPAR_TEXTO,Data remessa calculada como D+1
+41,9,cnpj_lido,PDF_RULE,CNPJ_EMPRESA,1,TEXTO,LIMPAR_TEXTO,CNPJ da empresa no cabecalho
+42,9,sku_lido,PDF_RULE,COD_FORN,1,TEXTO,LIMPAR_TEXTO,Codigo fornecedor do item
+43,9,quantidade_lida,PDF_RULE,QTDE_EMB,1,NUMERO,NUMERO,Quantidade do item na coluna Qtde Emb
+44,9,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido no cabecalho
+45,9,data_entrega_lida,PDF_RULE,D+1,1,TEXTO,LIMPAR_TEXTO,Data remessa calculada como D+1
+46,10,cnpj_lido,PDF_RULE,CNPJ_BLOCO,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente no bloco da pagina
+47,10,sku_lido,PDF_RULE,REFERENCIA,1,TEXTO,LIMPAR_TEXTO,Referencia do item entra como SKU
+48,10,quantidade_lida,PDF_RULE,QTDE,1,NUMERO,NUMERO,Quantidade do item na coluna Qtde
+49,10,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero Pedido do rodape do bloco
+50,10,data_entrega_lida,PDF_RULE,D+1,1,TEXTO,LIMPAR_TEXTO,Data remessa calculada como D+1
+51,11,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente no cabecalho
+52,11,sku_lido,PDF_RULE,COD_FORN,1,TEXTO,LIMPAR_TEXTO,Codigo fornecedor do item
+53,11,quantidade_lida,PDF_RULE,QTDE,1,NUMERO,NUMERO,Quantidade do item na coluna Qtde
+54,11,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido no cabecalho
+55,11,data_entrega_lida,PDF_RULE,DATA_MANUAL,1,TEXTO,LIMPAR_TEXTO,Data remessa informada manualmente no popup
+56,12,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente no cabecalho
+57,12,sku_lido,PDF_RULE,COD_FORN,1,TEXTO,LIMPAR_TEXTO,Codigo fornecedor do item
+58,12,quantidade_lida,PDF_RULE,QTDE_QTD_CANC,1,NUMERO,NUMERO,Quantidade da coluna Qtde Qtd.Canc.
+59,12,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido no cabecalho
+60,12,data_entrega_lida,PDF_RULE,PREVISAO_ENTREGA,1,TEXTO,LIMPAR_TEXTO,Data remessa lida em Previsao de entrega
+61,13,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente extraido pelo parser dedicado
+62,13,sku_lido,PDF_RULE,SKU_DIRETO,1,TEXTO,LIMPAR_TEXTO,SKU direto do PDF; sem conversao unidade-caixa
+63,13,quantidade_lida,PDF_RULE,QTD_CAIXARIA,1,NUMERO,NUMERO,Quantidade em caixaria/embalagem conforme PDF
+64,13,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido do cabecalho/bloco
+65,13,data_entrega_lida,PDF_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra D+1 quando nao houver data no PDF
+66,14,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente extraido pelo parser dedicado
+67,14,sku_lido,PDF_RULE,SKU_DIRETO,1,TEXTO,LIMPAR_TEXTO,SKU direto do PDF; sem conversao unidade-caixa
+68,14,quantidade_lida,PDF_RULE,QTD_CAIXARIA,1,NUMERO,NUMERO,Quantidade em caixaria/embalagem conforme PDF
+69,14,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido do cabecalho/bloco
+70,14,data_entrega_lida,PDF_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra D+1 quando nao houver data no PDF
+71,15,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente extraido pelo parser dedicado
+72,15,sku_lido,PDF_RULE,SKU_DIRETO,1,TEXTO,LIMPAR_TEXTO,SKU direto do PDF; sem conversao unidade-caixa
+73,15,quantidade_lida,PDF_RULE,QTD_CAIXARIA,1,NUMERO,NUMERO,Quantidade em caixaria/embalagem conforme PDF
+74,15,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido do cabecalho/bloco
+75,15,data_entrega_lida,PDF_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra D+1 quando nao houver data no PDF
+76,16,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente extraido pelo parser dedicado
+77,16,sku_lido,PDF_RULE,SKU_DIRETO,1,TEXTO,LIMPAR_TEXTO,SKU direto do PDF; sem conversao unidade-caixa
+78,16,quantidade_lida,PDF_RULE,QTD_CAIXARIA,1,NUMERO,NUMERO,Quantidade em caixaria/embalagem conforme PDF
+79,16,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido do cabecalho/bloco
+80,16,data_entrega_lida,PDF_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra D+1 quando nao houver data no PDF
+81,17,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente extraido pelo parser dedicado
+82,17,sku_lido,PDF_RULE,SKU_DIRETO,1,TEXTO,LIMPAR_TEXTO,SKU direto do PDF; sem conversao unidade-caixa
+83,17,quantidade_lida,PDF_RULE,QTD_CAIXARIA,1,NUMERO,NUMERO,Quantidade em caixaria/embalagem conforme PDF
+84,17,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido do cabecalho/bloco
+85,17,data_entrega_lida,PDF_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra D+1 quando nao houver data no PDF
+86,18,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente extraido pelo parser dedicado
+87,18,sku_lido,PDF_RULE,SKU_DIRETO,1,TEXTO,LIMPAR_TEXTO,SKU direto do PDF; sem conversao unidade-caixa
+88,18,quantidade_lida,PDF_RULE,QTD_CAIXARIA,1,NUMERO,NUMERO,Quantidade em caixaria/embalagem conforme PDF
+89,18,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido do cabecalho/bloco
+90,18,data_entrega_lida,PDF_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra D+1 quando nao houver data no PDF
+91,19,cnpj_lido,PDF_RULE,CNPJ_CLIENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do cliente extraido pelo parser dedicado
+92,19,sku_lido,PDF_RULE,SKU_DIRETO,1,TEXTO,LIMPAR_TEXTO,SKU direto do PDF; sem conversao unidade-caixa
+93,19,quantidade_lida,PDF_RULE,QTD_CAIXARIA,1,NUMERO,NUMERO,Quantidade em caixaria/embalagem conforme PDF
+94,19,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido do cabecalho/bloco
+95,19,data_entrega_lida,PDF_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra D+1 quando nao houver data no PDF
+96,20,matricula_lida,EXCEL_RULE,MATRICULA_CABECALHO_OU_LINHA,1,TEXTO,LIMPAR_TEXTO,Matricula extraida da matriz Excel
+97,20,sku_lido,EXCEL_RULE,SKU_MATRIZ,1,TEXTO,LIMPAR_TEXTO,SKU extraido da matriz Excel
+98,20,quantidade_lida,EXCEL_RULE,QTD_MATRIZ,1,NUMERO,NUMERO,Quantidade direta da matriz Excel; sem conversao unidade-caixa
+99,20,numero_pedido_lido,EXCEL_RULE,PEDIDO_OPCIONAL,0,TEXTO,LIMPAR_TEXTO,Pedido opcional; quando vazio a operacao usa regra de pedido padrao
+100,20,data_entrega_lida,EXCEL_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra do layout
+101,21,matricula_lida,EXCEL_RULE,MATRICULA_CABECALHO_OU_LINHA,1,TEXTO,LIMPAR_TEXTO,Matricula extraida da matriz Excel
+102,21,sku_lido,EXCEL_RULE,SKU_MATRIZ,1,TEXTO,LIMPAR_TEXTO,SKU extraido da matriz Excel
+103,21,quantidade_lida,EXCEL_RULE,QTD_MATRIZ,1,NUMERO,NUMERO,Quantidade direta da matriz Excel; sem conversao unidade-caixa
+104,21,numero_pedido_lido,EXCEL_RULE,PEDIDO_OPCIONAL,0,TEXTO,LIMPAR_TEXTO,Pedido opcional; quando vazio a operacao usa regra de pedido padrao
+105,21,data_entrega_lida,EXCEL_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra do layout
+106,22,matricula_lida,EXCEL_RULE,MATRICULA_CABECALHO_OU_LINHA,1,TEXTO,LIMPAR_TEXTO,Matricula extraida da matriz Excel
+107,22,sku_lido,EXCEL_RULE,SKU_MATRIZ,1,TEXTO,LIMPAR_TEXTO,SKU extraido da matriz Excel
+108,22,quantidade_lida,EXCEL_RULE,QTD_MATRIZ,1,NUMERO,NUMERO,Quantidade direta da matriz Excel; sem conversao unidade-caixa
+109,22,numero_pedido_lido,EXCEL_RULE,PEDIDO_OPCIONAL,0,TEXTO,LIMPAR_TEXTO,Pedido opcional; quando vazio a operacao usa regra de pedido padrao
+110,22,data_entrega_lida,EXCEL_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra do layout
+111,23,matricula_lida,EXCEL_RULE,MATRICULA_ARQUIVO_DATAS,1,TEXTO,LIMPAR_TEXTO,Matricula extraida do arquivo auxiliar de datas/matriculas
+112,23,sku_lido,EXCEL_RULE,COD_FAB,1,TEXTO,LIMPAR_TEXTO,SKU/Cod.Fab extraido do pedido Coelho Diniz
+113,23,quantidade_lida,EXCEL_RULE,QTD_DIRETA,1,NUMERO,NUMERO,Quantidade direta do pedido; sem conversao unidade-caixa
+114,23,numero_pedido_lido,EXCEL_RULE,NUMERO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do pedido extraido do Excel de pedido
+115,23,data_entrega_lida,EXCEL_RULE,DATA_POR_MATRICULA,1,TEXTO,LIMPAR_TEXTO,Data remessa vinculada por matricula no arquivo auxiliar
+116,24,cnpj_lido,PDF_RULE,CNPJ_OU_CNPJ_BASE,1,TEXTO,LIMPAR_TEXTO,CNPJ completo ou CNPJ-base extraido do PDF em homologacao
+117,24,gln_lido,PDF_RULE,GLN_OU_TEXTO_LOJA,0,TEXTO,LIMPAR_TEXTO,GLN/texto de loja quando existir no PDF
+118,24,sku_lido,PDF_RULE,SKU_OU_EAN,1,TEXTO,LIMPAR_TEXTO,SKU/EAN extraido sem conversao de unidade
+119,24,quantidade_lida,PDF_RULE,QTD_DIRETA,1,NUMERO,NUMERO,"Quantidade direta do PDF, sem divisao por fator"
+120,24,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,0,TEXTO,LIMPAR_TEXTO,Numero do pedido quando localizado no contexto
+121,25,cnpj_lido,PDF_RULE,CNPJ_OU_CNPJ_BASE,1,TEXTO,LIMPAR_TEXTO,CNPJ completo ou CNPJ-base extraido do PDF em homologacao
+122,25,gln_lido,PDF_RULE,GLN_OU_TEXTO_LOJA,0,TEXTO,LIMPAR_TEXTO,GLN/texto de loja quando existir no PDF
+123,25,sku_lido,PDF_RULE,SKU_OU_EAN,1,TEXTO,LIMPAR_TEXTO,SKU/EAN extraido sem conversao de unidade
+124,25,quantidade_lida,PDF_RULE,QTD_DIRETA,1,NUMERO,NUMERO,"Quantidade direta do PDF, sem divisao por fator"
+125,25,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,0,TEXTO,LIMPAR_TEXTO,Numero do pedido quando localizado no contexto
+126,26,cnpj_lido,PDF_RULE,CNPJ_OU_CNPJ_BASE,1,TEXTO,LIMPAR_TEXTO,CNPJ completo ou CNPJ-base extraido do PDF em homologacao
+127,26,gln_lido,PDF_RULE,GLN_OU_TEXTO_LOJA,0,TEXTO,LIMPAR_TEXTO,GLN/texto de loja quando existir no PDF
+128,26,sku_lido,PDF_RULE,SKU_OU_EAN,1,TEXTO,LIMPAR_TEXTO,SKU/EAN extraido sem conversao de unidade
+129,26,quantidade_lida,PDF_RULE,QTD_DIRETA,1,NUMERO,NUMERO,"Quantidade direta do PDF, sem divisao por fator"
+130,26,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,0,TEXTO,LIMPAR_TEXTO,Numero do pedido quando localizado no contexto
+131,27,cnpj_lido,PDF_RULE,CNPJ_OU_CNPJ_BASE,1,TEXTO,LIMPAR_TEXTO,CNPJ completo ou CNPJ-base extraido do PDF em homologacao
+132,27,gln_lido,PDF_RULE,GLN_OU_TEXTO_LOJA,0,TEXTO,LIMPAR_TEXTO,GLN/texto de loja quando existir no PDF
+133,27,sku_lido,PDF_RULE,SKU_OU_EAN,1,TEXTO,LIMPAR_TEXTO,SKU/EAN extraido sem conversao de unidade
+134,27,quantidade_lida,PDF_RULE,QTD_DIRETA,1,NUMERO,NUMERO,"Quantidade direta do PDF, sem divisao por fator"
+135,27,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,0,TEXTO,LIMPAR_TEXTO,Numero do pedido quando localizado no contexto
+136,28,cnpj_lido,PDF_RULE,CNPJ_OU_CNPJ_BASE,1,TEXTO,LIMPAR_TEXTO,CNPJ completo ou CNPJ-base extraido do PDF em homologacao
+137,28,gln_lido,PDF_RULE,GLN_OU_TEXTO_LOJA,0,TEXTO,LIMPAR_TEXTO,GLN/texto de loja quando existir no PDF
+138,28,sku_lido,PDF_RULE,SKU_OU_EAN,1,TEXTO,LIMPAR_TEXTO,SKU/EAN extraido sem conversao de unidade
+139,28,quantidade_lida,PDF_RULE,QTD_DIRETA,1,NUMERO,NUMERO,"Quantidade direta do PDF, sem divisao por fator"
+140,28,numero_pedido_lido,PDF_RULE,NUMERO_PEDIDO,0,TEXTO,LIMPAR_TEXTO,Numero do pedido quando localizado no contexto
+141,31,cnpj_lido,PDF_RULE,CNPJ_EMITENTE,1,TEXTO,LIMPAR_TEXTO,CNPJ do emitente Supermais extraido do cabecalho; fornecedor SPAL ignorado
+142,31,sku_lido,PDF_RULE,CODIGO_FORNECED,1,TEXTO,LIMPAR_TEXTO,Codigo Forneced entra como SKU
+143,31,quantidade_lida,PDF_RULE,PEDIDO_EMBAL,1,NUMERO,NUMERO,Quantidade em caixas/embalagens; nao usar Pedido Unid
+144,31,numero_pedido_lido,PDF_RULE,ORDEM_COMPRA_NUMERO,1,TEXTO,LIMPAR_TEXTO,Numero em Ordem de Compra
+145,31,data_entrega_lida,PDF_RULE,D+1,0,TEXTO,LIMPAR_TEXTO,Data remessa calculada por regra D+1 quando nao houver data no PDF
+146,32,cnpj_lido,PDF_RULE,CNPJ_EMPRESA_ENTREGA,1,TEXTO,LIMPAR_TEXTO,CNPJ da empresa/fatura/entrega Panelao; fornecedor SPAL ignorado
+147,32,sku_lido,PDF_RULE,REF,1,TEXTO,LIMPAR_TEXTO,Coluna REF entra como SKU
+148,32,quantidade_lida,PDF_RULE,QTDE_COMPRA,1,NUMERO,NUMERO,Quantidade em caixas/compra; nao usar QTDE TOTAL
+149,32,numero_pedido_lido,PDF_RULE,PEDIDO_DE_COMPRA,1,TEXTO,LIMPAR_TEXTO,Numero em PEDIDO DE COMPRA
+150,32,data_entrega_lida,PDF_RULE,ENTREGA_RETIRADA,0,TEXTO,LIMPAR_TEXTO,Data de entrega localizada no campo ENTREGA/RETIRADA
+151,33,cnpj_lido,PDF_RULE,CNPJ_EMPRESA_ENTREGA,1,TEXTO,LIMPAR_TEXTO,CNPJ da empresa/entrega Caita; fornecedor SPAL ignorado
+152,33,sku_lido,PDF_RULE,REFERENCIA,1,TEXTO,LIMPAR_TEXTO,Coluna Referencia entra como SKU
+153,33,quantidade_lida,PDF_RULE,QUANT_CAIXA,1,NUMERO,NUMERO,Quantidade em caixas; nao usar QUANT Pedida
+154,33,numero_pedido_lido,PDF_RULE,NUMERO_DO_PEDIDO,1,TEXTO,LIMPAR_TEXTO,Numero do Pedido do cabecalho
+155,33,data_entrega_lida,PDF_RULE,PREVISAO_ENTREGA,0,TEXTO,LIMPAR_TEXTO,Previsao de entrega localizada no cabecalho
+156,34,cnpj_lido,,,1,TEXTO,,CNPJ cliente no bloco direito Dados para Faturamento
+157,34,sku_lido,,,1,TEXTO,,SKU=Cod Forn
+158,34,ean_lido,,,0,TEXTO,,EAN capturado para auditoria quando existir
+159,34,quantidade_lida,,,1,NUMERO,,"Quantidade da coluna Qtde, já em caixaria"
+160,34,numero_pedido_lido,,,1,TEXTO,,Cabeçalho PEDIDO DE COMPRAS 000000/X
+161,34,data_entrega_lida,,,0,TEXTO,,Data remessa calculada por regra D+1
+162,35,cnpj_lido,,,1,TEXTO,,TESTE: CNPJ/chave do cliente extraído pelo parser genérico
+163,35,sku_lido,,,1,TEXTO,,TESTE: SKU ou código fornecedor
+164,35,ean_lido,,,0,TEXTO,,TESTE: EAN para conversão
+165,35,quantidade_lida,,,1,NUMERO,,TESTE: quantidade em unidade para conversão
+166,35,numero_pedido_lido,,,0,TEXTO,,Número do pedido quando localizado
+167,36,cnpj_lido,,,1,TEXTO,,TESTE: CNPJ/chave do cliente
+168,36,sku_lido,,,1,TEXTO,,TESTE: SKU/código
+169,36,ean_lido,,,0,TEXTO,,TESTE: EAN para busca de fator
+170,36,quantidade_lida,,,1,NUMERO,,TESTE: quantidade em unidade
+171,36,numero_pedido_lido,,,0,TEXTO,,Número do pedido
+172,37,cnpj_lido,,,1,TEXTO,,TESTE: CNPJ/chave do cliente
+173,37,sku_lido,,,1,TEXTO,,TESTE: SKU/código
+174,37,ean_lido,,,0,TEXTO,,TESTE: EAN para busca de fator
+175,37,quantidade_lida,,,1,NUMERO,,TESTE: quantidade em unidade
+176,37,numero_pedido_lido,,,0,TEXTO,,Número do pedido
+177,38,cnpj_lido,,,1,TEXTO,,CNPJ/chave do cliente Celeiro
+178,38,sku_lido,,,1,TEXTO,,SKU/código para conversão
+179,38,ean_lido,,,0,TEXTO,,EAN para busca de fator
+180,38,quantidade_lida,,,1,NUMERO,,Quantidade em unidade para conversão
+181,38,centro_lido,,,0,TEXTO,,Centro usado na busca do fator
+182,38,numero_pedido_lido,,,0,TEXTO,,Número do pedido
+183,39,cnpj_lido,REGEX_CNPJ_FATURAMENTO,CNPJ_DADOS_FATURAMENTO,1,TEXTO,only_digits,CNPJ do cliente Coasul no bloco Dados para Faturamento; ignorar CNPJ SPAL/fornecedor.
+184,39,ean_lido,COLUNA_PDF,COD. BARRAS,1,TEXTO,only_digits,Coluna COD. BARRAS usada como EAN para conversao.
+185,39,sku_lido,COLUNA_PDF_TEMP,COD. BARRAS,0,TEXTO,only_digits,SKU temporario recebe EAN ate resolver SKU final no mapa de produtos.
+186,39,quantidade_lida,COLUNA_PDF,QTDE,1,NUMERO,,Quantidade original em unidade; precisa conversao para caixaria.
+187,39,qtd_original,COLUNA_PDF,QTDE,0,NUMERO,,Quantidade original preservada para auditoria.
+188,39,tipo_qtd_original,VALOR_FIXO,UNIDADE,0,TEXTO,,Tipo da quantidade original do layout.
+189,39,numero_pedido_lido,REGEX_CABECALHO,ORDEM Nº,1,TEXTO,only_digits,Numero da Ordem de Compra Coasul.
+190,39,centro_lido,CSV_REGRAS_CONVERSAO,Cadastros/regras_conversao.csv,0,TEXTO,,"Centro vem da regra ativa em Cadastros/regras_conversao.csv, com fallback padrao."
+191,39,descricao_lida,COLUNA_PDF,PRODUTO,0,TEXTO,,Descricao do produto na linha do item.
+192,40,matricula_lida,PARSER_DEDICADO,,0,TEXTO,,Parteka/EMOP: preenchido pelo parser dedicado
+193,40,cnpj_lido,PARSER_DEDICADO,,0,TEXTO,,Parteka/EMOP: preenchido pelo parser dedicado/de-para
+194,40,sku_lido,PARSER_DEDICADO,,1,TEXTO,,Parteka/EMOP: SKU/ref. fornecedor
+195,40,ean_lido,PARSER_DEDICADO,,0,TEXTO,,Parteka/EMOP: EAN/Cod Barras quando existir
+196,40,quantidade_lida,PARSER_DEDICADO,,1,NUMERO,,Parteka/EMOP: quantidade já em caixaria
+197,40,numero_pedido_lido,PARSER_DEDICADO,,0,TEXTO,,Parteka/EMOP: pedido por cabeçalho/linha/arquivo quando existir
+198,40,codigo_loja_lido,PARSER_DEDICADO,,0,TEXTO,,Parteka/EMOP: loja/código original para rastreabilidade
+199,40,descricao_lida,PARSER_DEDICADO,,0,TEXTO,,Parteka/EMOP: descrição quando existir
+200,41,matricula_lida,PARSER_DEDICADO,,0,TEXTO,,Iquegami: preenchido pelo parser dedicado
+201,41,cnpj_lido,PARSER_DEDICADO,,0,TEXTO,,Iquegami: preenchido pelo parser dedicado/de-para
+202,41,sku_lido,PARSER_DEDICADO,,1,TEXTO,,Iquegami: SKU/ref. fornecedor
+203,41,ean_lido,PARSER_DEDICADO,,0,TEXTO,,Iquegami: EAN/Cod Barras quando existir
+204,41,quantidade_lida,PARSER_DEDICADO,,1,NUMERO,,Iquegami: quantidade já em caixaria
+205,41,numero_pedido_lido,PARSER_DEDICADO,,0,TEXTO,,Iquegami: pedido por cabeçalho/linha/arquivo quando existir
+206,41,codigo_loja_lido,PARSER_DEDICADO,,0,TEXTO,,Iquegami: loja/código original para rastreabilidade
+207,41,descricao_lida,PARSER_DEDICADO,,0,TEXTO,,Iquegami: descrição quando existir
+LAYOUT_GRANCOFFEE_EXCEL_MATRICULA,LAYOUT_GRANCOFFEE_EXCEL,Matricula,COLUNA_OU_EMAIL,MATRICULA,1,texto,PROCESSADOR_DEDICADO_GRANCOFFEE,Cabeçalho da aba Pedido/anexo ou corpo MSG.
+LAYOUT_GRANCOFFEE_EXCEL_PEDIDO,LAYOUT_GRANCOFFEE_EXCEL,Pedido,COLUNA_OU_EMAIL,PEDIDO,1,texto,PROCESSADOR_DEDICADO_GRANCOFFEE,Cabeçalho da aba Pedido/anexo e cruzamento com corpo do e-mail.
+LAYOUT_GRANCOFFEE_EXCEL_SKU,LAYOUT_GRANCOFFEE_EXCEL,Sku,COLUNA_OU_EMAIL,SKU,1,texto,PROCESSADOR_DEDICADO_GRANCOFFEE,Coluna SKU da aba Pedido.
+LAYOUT_GRANCOFFEE_EXCEL_QTD,LAYOUT_GRANCOFFEE_EXCEL,Qtd,COLUNA_OU_EMAIL,QTD FARDO,1,decimal,PROCESSADOR_DEDICADO_GRANCOFFEE,"Quantidade final em fardos, sem conversão unidade-caixaria."
+LAYOUT_GRANCOFFEE_EXCEL_DATA,LAYOUT_GRANCOFFEE_EXCEL,Data,COLUNA_OU_EMAIL,DATA_REMESSA_EMAIL,1,data,PROCESSADOR_DEDICADO_GRANCOFFEE,Data oficial extraída do corpo do e-mail por matrícula + pedido.
+LAYOUT_GRANCOFFEE_EXCEL_EAN,LAYOUT_GRANCOFFEE_EXCEL,EAN,COLUNA_OU_EMAIL,EAN,0,texto,PROCESSADOR_DEDICADO_GRANCOFFEE,Rastreabilidade/auditoria.
+LAYOUT_GRANCOFFEE_MSG_MATRICULA,LAYOUT_GRANCOFFEE_MSG,Matricula,COLUNA_OU_EMAIL,MATRICULA,1,texto,PROCESSADOR_DEDICADO_GRANCOFFEE,Cabeçalho da aba Pedido/anexo ou corpo MSG.
+LAYOUT_GRANCOFFEE_MSG_PEDIDO,LAYOUT_GRANCOFFEE_MSG,Pedido,COLUNA_OU_EMAIL,PEDIDO,1,texto,PROCESSADOR_DEDICADO_GRANCOFFEE,Cabeçalho da aba Pedido/anexo e cruzamento com corpo do e-mail.
+LAYOUT_GRANCOFFEE_MSG_SKU,LAYOUT_GRANCOFFEE_MSG,Sku,COLUNA_OU_EMAIL,SKU,1,texto,PROCESSADOR_DEDICADO_GRANCOFFEE,Coluna SKU da aba Pedido.
+LAYOUT_GRANCOFFEE_MSG_QTD,LAYOUT_GRANCOFFEE_MSG,Qtd,COLUNA_OU_EMAIL,QTD FARDO,1,decimal,PROCESSADOR_DEDICADO_GRANCOFFEE,"Quantidade final em fardos, sem conversão unidade-caixaria."
+LAYOUT_GRANCOFFEE_MSG_DATA,LAYOUT_GRANCOFFEE_MSG,Data,COLUNA_OU_EMAIL,DATA_REMESSA_EMAIL,1,data,PROCESSADOR_DEDICADO_GRANCOFFEE,Data oficial extraída do corpo do e-mail por matrícula + pedido.
+LAYOUT_GRANCOFFEE_MSG_EAN,LAYOUT_GRANCOFFEE_MSG,EAN,COLUNA_OU_EMAIL,EAN,0,texto,PROCESSADOR_DEDICADO_GRANCOFFEE,Rastreabilidade/auditoria.

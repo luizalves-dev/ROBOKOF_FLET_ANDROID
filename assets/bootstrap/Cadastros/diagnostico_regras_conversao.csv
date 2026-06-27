@@ -1,0 +1,13 @@
+item,status,detalhe
+regras_total,OK,11
+regra_id_duplicado,OK,sem duplicidade
+headers_obrigatorios,OK,todos presentes
+celeiro_centro_referencia,OK,Chapecó/BFDZ configurado
+mapa_sheet,OK,Mapa de Produtos
+mapa_linhas,OK,26100
+mapa_centros,OK,57
+mapa_skus,OK,723
+mapa_eans,OK,613
+mapa_duns,OK,555
+mapa_linhas_sem_fator,OK,0
+mapa_chaves_ambiguidade,ALERTA,1442
